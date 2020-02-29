@@ -1,0 +1,70 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  box-shadow: 5px 10px #888888;
+}
+.main-box{
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  
+  
+  
+}
+.itemdetails{
+  cursor: pointer;
+  
+  color: rgb(86, 86, 226) !important;
+  font-size: 0.8em;;
+}
+.Item{
+  background-color: #ddeade;
+}
+.visible{
+  visibility:visible;
+  border: 1px black solid;
+  margin: inherit;
+  padding: 10px;
+  display: flex;
+}
+.hidden{
+  visibility:hidden;
+  height: 10px;
+}
+.chair{
+  flex: 1;
+}
+.detail{
+  flex:1; 
+  margin-top: 20px;
+}
+.Discount{
+  width:20px;
+
+}
+.customDiv{
+  margin: inherit;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.PromoCode{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+
+}
+.promocode-text{
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgb(206, 170, 188);
+}
+.promocode-button{
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 10px;
+}
